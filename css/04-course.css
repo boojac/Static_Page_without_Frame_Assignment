@@ -1,0 +1,99 @@
+#course {
+    padding: 32px 0;
+    background-color: #fff;
+}
+
+.course-box {
+    height: 634px;
+    background-color: #fff;
+
+}
+
+.course-box .title-pic {
+    height: 36px;
+    
+}
+.course-box .course {
+    height: 568px;
+    margin-top: 30px;
+}
+
+.course-box .title-pic img {
+    width: 162px;
+}
+
+.course-box .title-pic a {
+    font-size: 16px;
+    font-weight: 400px;
+    margin: 0 10px ;
+}
+
+.course-box .title-pic a:hover {
+    color: #ec1500;
+}
+
+.course-box .title-pic .active {
+    font-weight: 700px;
+    color: #545C63;
+    border-bottom: 2px #E76060 solid;
+    padding-bottom: 5px;
+
+}
+
+.course-box .course ul {
+    display: none;
+    width: 1176px;
+}
+
+.course-box .course .current {
+    display: block;
+
+}
+.course-box .course li {
+   position: relative;
+   float: left;
+   width: 270px;
+   margin-right: 24px;
+   height: 272px;
+   border-radius: 8px;
+   box-shadow: 0 5px 20px 0 rgba(0,0,0,0.1);
+   margin-bottom: 24px;
+   transform: 0.2s;
+}
+
+.course-box .course li:hover {
+    transform: translateY(-2px);
+}
+
+.course-box .course li img {
+    width: 270px;
+    border-radius: 8px 8px 0 0; 
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.3);
+}
+
+
+.course-box .course .title {
+    position: absolute;
+    color: #545C63;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.course-box .course .difficulty {
+    position: absolute;
+
+    position: absolute;
+    font-size: 12px;
+    left: 10px;
+    bottom: 40px;
+
+}
+.course-box .course .price {
+    position: absolute;
+    font-size: 12px;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    color: #F01414;
+    font-weight: 700px;
+}

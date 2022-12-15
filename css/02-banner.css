@@ -1,0 +1,195 @@
+/* 整体布局开始 */
+
+#banner {
+    padding: 32px 0;
+    transition: 1s;
+    
+}
+
+.banner-box {
+    height: 482px;
+    
+}
+
+.g-banner {
+    height: 382px;
+
+}
+
+.course-list {
+    width: 256px;
+    height: 382px;
+    background-color: #39364D;
+    color: white;
+    border-radius: 8px 0 0 0;
+}
+
+.swiper {
+    width: 896px;
+    height: 382px;
+    position: relative;
+    background-color: #f4f477;
+    border-radius: 0 8px 0 0;
+
+}
+.sys-class {
+    height: 100px;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+}
+
+/* 整体布局结束 */
+
+/* 左侧课程分类 开始 */
+.course-list ul {
+    margin-top: 20px;
+
+}
+.course-list li {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.course-list .title {
+    font-size: 14px;
+}
+
+.course-list .sub-title {
+    font-size: 12px;
+}
+
+.course-list .iconfont {
+    float: right;
+}
+
+.course-list li:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+/* 左侧课程分类结束 */
+
+/* 轮播图 开始 */
+.swiper a {
+    display: block;
+    width: 896px;
+    height: 382px;
+    background-image: url(../images/swiper/swiper-1.jpg);
+    background-size: contain;
+    border-radius: 0 8px 0 0;
+    transition: 1s;
+}
+
+.swiper .arrow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.1);
+
+}
+
+.arrow .iconfont {
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.swiper .arrow:hover {
+    background-color: rgba(0,0,0,.1);
+}
+
+.arrow-l {
+    left: 20px;
+    top: 160px;
+}
+
+.arrow-r {
+    right: 20px;
+    top: 160px;
+}
+
+/* 切图按钮 */
+
+.circle-list {
+    position: absolute;
+    right: 90px;
+    bottom: 25px;
+}
+
+.circle-list li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    
+}
+
+.circle-list li.current {
+    width: 20px;
+    border-radius: 4px;
+
+}
+/* 轮播图 结束 */
+
+/* 下方体系课 开始 */
+.show-box {
+    display: inline-block;
+    width: 192px;
+    height: 45px;
+    margin-top: 27px;
+    margin-left: 15px;
+}
+
+.show-box .sys-icon {
+    width: 45px;
+    height: 45px;
+    background-size: contain;
+    margin-right: 8px;
+    
+}
+
+.show-box h4 {
+    font-size: 14px;
+}
+
+.show-box p {
+    font-size: 12px;
+}
+
+.show-box .title:hover h4{
+    color: #ec1500;
+}
+
+.sys-class .line {
+    display: inline-block;
+    width: 2px;
+    height: 40px;
+    background-color: #e8e8e8;
+}
+
+.sys-class .more-btn {
+    display: inline-block;   
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+.sys-class .more-btn .iconfont {
+    font-size: 12px;
+
+}
+
+.sys-icon {
+    transition: .2s ;
+}
+
+.sys-icon:hover {
+    transform:translateY(-5px)
+}
+/* 下方体系课 结束 */

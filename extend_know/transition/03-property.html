@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Document</title>
+<style>
+    /* 状态1 */
+    div {
+        margin: 100px auto;
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+        border: 2px solid red;
+        transition-duration: 1s;
+        /* all所有属性都参与过度 */
+        /* transition-property: all; */
+        transition-property: width, height;
+    }
+
+    /* 状态2 */
+    div:hover {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border: 5px solid black;
+        transition-property: background-color, border;
+    }
+</style>
+</head>
+<body>
+<div></div>    
+</body>
+</html>

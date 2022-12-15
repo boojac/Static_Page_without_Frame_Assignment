@@ -1,0 +1,103 @@
+#header {
+    height: 72px;
+    border-bottom: 1px solid #ccc;
+    min-width: 1300px;
+}
+
+.nav-box {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.nav-box h1 {
+    width: 126px;
+    height: 72px;
+    background-image: url(../images/logo.png);
+    background-size: 126px 72px;
+    
+}
+.nav-box h1 a {
+    display: block;
+    width: 126px;
+    height: 72px;
+    font-size: 0;
+}
+
+/* 设置课程导航 */
+
+.item-box {
+    height: 72px;
+    line-height: 72px;
+    margin-left: 20px;
+    position:relative;
+
+}
+
+.item-box li {
+    float: left;
+    padding: 0 16px;
+}
+.item-box img {
+    position:absolute;
+    width: 14px;
+    left: 220px;
+    top: 18px;
+}
+
+/* 搜索框 */
+
+.search {
+    padding: 16px 0;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.search div {
+    background-color: #F3F5F6;
+}
+.search div input {
+    width: 300px;
+    height: 30px;
+    border: 0;
+    background-color: #F3F5F6;
+    padding-left: 10px;
+}
+
+.search .iconfont {
+    margin-right: 10px;
+}
+
+/* 登陆注册区 */
+.login-area {
+    position: relative;
+    height: 72px;
+    line-height: 72px;
+}
+.login-area a {
+    padding: 0 20px;
+}
+
+.login-area .shop-cart {
+    padding: 8px 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    color: #F01414;
+} 
+
+.cart-num {
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50% 50% 50% 0;
+    background-color: #F01414;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+
+

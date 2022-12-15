@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>setTimeout</title>
+</head>
+
+<body>
+    <button>停止</button>
+    <script>
+        // 浏览器打开一秒（1000ms）后，终端输出123
+
+        let timer = setTimeout(() => {
+            console.log(123)
+        }, 1000);
+
+        document.querySelector("button").onclick = function(){
+            clearTimeout(timer);
+        }
+    </script>
+    
+</body>
+</html>

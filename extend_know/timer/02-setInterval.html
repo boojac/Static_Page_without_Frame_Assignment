@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>setInterval</title>
+</head>
+<body>
+    <button>清除定时器</button>
+    <script>
+        let timer = setInterval(() => {
+            console.log(123);
+        }, 1000);
+    
+        document.querySelector("button").onclick = function() {
+            clearInterval(timer);
+        };
+    </script>
+</body>
+</html>
